@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Catalog.xslt"?>
+
+<!DOCTYPE library [
+    <!ELEMENT library (book*)>
+    <!ELEMENT book (title, author, release_date, genre, language, image)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT author (#PCDATA)>
+    <!ELEMENT release_date (#PCDATA)>
+    <!ELEMENT genre (#PCDATA)>
+    <!ELEMENT language (#PCDATA)>
+    <!ELEMENT image (file_path, description)>
+    <!ELEMENT file_path (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+]>
+
+<library>
+    <book>
+        <title>Tintin in America</title>
+        <author>Hergé</author>
+        <release_date>2004-11-04</release_date>
+        <genre>Adventure Fiction</genre>
+        <language>English</language>
+        <image>
+            <file_path>assets/tintin.png</file_path>
+            <description>Cover of Tintin in America</description>
+        </image>
+    </book>
+    <book>
+        <title>My Hero Academia Vol 1</title>
+        <author>Kohei Horikoshi</author>
+        <release_date>2014-07-07</release_date>
+        <genre>Adventure Fiction</genre>
+        <language>English</language>
+        <image>
+            <file_path>assets/myhero.png</file_path>
+            <description>Cover of My Hero Academia Vol 1</description>
+        </image>
+    </book>
+    <book>
+        <title>Adventure Time Vol. 1</title>
+        <author>Ryan North</author>
+        <release_date>2012-06-11</release_date>
+        <genre>Adventure Fiction</genre>
+        <language>English</language>
+        <image>
+            <file_path>assets/adventuretime.png</file_path>
+            <description>Cover of Adventure Time Vol. 1</description>
+        </image>
+    </book>
+    <book>
+        <title>Snow White and the Seven Dwarfs</title>
+        <author>Wanda Gag</author>
+        <release_date>1937-12-21</release_date>
+        <genre>Romance Fiction</genre>
+        <language>English</language>
+        <image>
+            <file_path>assets/snowwhite.png</file_path>
+            <description>Cover of Snow White and the Seven Dwarfs</description>
+        </image>
+    </book>
+    <book>
+        <title>It</title>
+        <author>Stephen King</author>
+        <release_date>1986-09-15</release_date>
+        <genre>Horror</genre>
+        <language>English</language>
+        <image>
+            <file_path>assets/it.png</file_path>
+            <description>Cover of It</description>
+        </image>
+    </book>
+</library>
