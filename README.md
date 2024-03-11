@@ -1,18 +1,36 @@
-# Bookshop-website Year 1
-The overall aim of this coursework is to design and develop a 2-page web site for bookshop.  The objectives are:
-•	Create a HTML page
-•	Demonstrate knowledge of CSS via implementation
-•	Create an XML page
-•	Demonstrate knowledge of DTD via implementation
-•	Design a website that renders data from an XML file (transformation)
+# Bookstore Website README
+Year 1 Coursework
 
+This repository contains code files for a website designed for a bookstore. The website is intended to showcase books available in the store, provide information about the bookstore, and allow users to navigate through different sections.
 
-Generate the website using a text editor (e.g., NotePad++).
+## Files Included
 
-•	The website must contain 2 pages, a main page, and a program page
-•	The main page should be a HTML file. It contains general information about the bookshop, such as the address, the contact detail, and the opening times of the bookshop.
-•	The main page should contain at least one paragraph, one list and one table. For example, you can include a brief introduction of the bookshop in a paragraph, include the main genres in a list, and the opening time in a table.
-•	Feel free to apply different formatting and styling to improve the presentation of the web page (TIP: consider using CSS).
-•	The program page should be an XML file. It stores information about the books sold following an XML data schema (TIP: consider using DTD).
-•	Ideally when the page is clicked open, the book list will be displayed in a table format (TIP: consider using XSL).
-•	Both the main page and the program page contain a link to each other (TIP: consider using the <a> tag).
+1. **index.html**: This file represents the main webpage layout of the bookstore website. It contains the structure of the webpage, including header, navigation buttons, content sections, footer, and styling references.
+
+2. **styles.css**: This file contains the CSS styles used to customize the appearance of the webpage elements defined in the HTML file. It includes styles for the layout, colors, fonts, buttons, navigation bar, image containers, and more.
+
+3. **Catalog.xslt**: This file represents an XSLT stylesheet used to transform XML data into HTML for displaying the bookstore's catalog. It is linked to the XML catalog file to render the catalog information in a structured format on the webpage.
+
+4. **BookstoreCatalog.xml**: This XML file contains a catalog of books available in the bookstore. Each book entry includes details such as title, author, release date, genre, language, and image information.
+
+## Usage
+
+To use the provided code files:
+
+1. Download or clone the repository to your local machine.
+
+2. Open the `index.html` file in a web browser to view the main webpage layout of the bookstore website.
+
+3. Ensure that the `styles.css` file is in the same directory as the `index.html` file to apply the necessary styles to the webpage elements.
+
+4. Optionally, you can modify the content of the XML catalog file (`BookstoreCatalog.xml`) to add, remove, or update book entries in the catalog. You may also adjust the XSLT stylesheet (`Catalog.xslt`) if necessary for customizing the display of catalog information on the webpage.
+
+## Features
+
+- **Responsive Design**: The webpage layout is designed to be responsive and adaptable to different screen sizes, ensuring optimal viewing experience on various devices.
+
+- **Navigation**: The website includes navigation buttons allowing users to easily navigate between different sections such as the homepage, catalog, and about us.
+
+- **Catalog Display**: The bookstore's catalog is displayed on the webpage, showing book titles, authors, release dates, genres, languages, and cover images.
+
+- **Contact Information**: Contact details for the bookstore, including phone number, email, and location, are provided in the footer section for users' convenience.
